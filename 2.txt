@@ -1,0 +1,51 @@
+int,flout,double
+
+(char charecter='a')
+
+(string str="cnhjrf")
+
+int name;name = nf;
+
+bool name= true/false;
+
+int[] name = new int [size];
+
+list<int> name = new list<int>;
+name ADD (O);
+
+if(10>3){
+
+}
+else if(4<3){
+
+}
+
+
+int a=3<10?11:-3;
+
+int a=3;
+switch(a){
+case 1:...;breaK;
+case 2:...;break;
+case 3:...;break;
+default:...;break;
+}
+
+while (a<10){
+
+
+
+
+a++
+}
+
+}
+while();
+
+for(int i=0; i<10; i++){
+
+}
+
+foreach(int a in array){
+
+}

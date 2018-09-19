@@ -1,0 +1,29 @@
+void start() исп при запуске скрипта или сцены
+
+void awake() до старта при иусловии что объект на кортором висит скрип октивен и сам компонент скрипта активен
+
+void update() вызывается каждый кадр 1/fps
+1) для обработки пользоветельского ввода 
+2)для проверки состояния
+3) трансформации нефизических объектов
+4) организация счётчиков и таймеров
+
+time.timescale=x ход времени. желательно в awake
+
+getkeydown 1когда клавиша нажата вниз
+getkey up 1 когда поднимаешся
+getkey пока держишь 
+
+if (input.getkey(keycode.A)) если нажали на A то ,,,,
+
+vector2.up , down , left , right
+
+[serializefield] privat - невидна другим но измен в юнити
+
+time.deltatime  синхронизатор времени между кадорами =time.timescale/fps
+ 
+transform.Translate(Vector2.left * speed*Time.deltaTime); ход в сторону
+
+void fixedupdate() каждые n  милисекунд
+
+void lateupdate() для перемещения камеры

@@ -1,0 +1,37 @@
+rigidbody - компонент отвечающий за физику игры
+
+collider - компонент овечающий за столкновение
+(
+privat float hor;
+privat float vert;
+
+viod update()
+{
+hor = input.getaxes(" horizontal");
+vert = input.getaxes("vertical");
+
+transform.Translate(vector2.up * speed * time.deltatime *vert);
+transform.Translate(vector2.right * speed * time.deltatime *hor);
+}
+)плавное передвижение в 2д пространстве
+
+что бы двап объекта столкнулись на обоих должны висеть колайдеры и хот€бы на однов риджетбоди
+
+void oncollisionenter2D(collision2d other) если столкиветьс€ с физическим объектом
+{
+
+}
+
+void ontriggerenter2D(colider2D other) если сталкиваетьс€ с тригером
+{
+
+}
+
+if(other.gemeobject.comparetag("") дл€ уничтожени€ объекта с тэгом
+{
+destroy(other.gemeobject);
+}
+
+getcompanent<audiosourse> ().play; включить компанент
+
+[serializedfield] privat gameobject player; всЄ об объекте
